@@ -1,0 +1,9 @@
+var wholefoods = web3.eth.accounts[0]
+
+var ContractAddress = 0x...
+
+var deployed = Food.at("ContractAddress")
+
+deployed.scan(1, {from: wholefoods})
+
+deployed.scan(index)
